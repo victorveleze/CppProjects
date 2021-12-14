@@ -3,7 +3,10 @@
 class Actor
 {
 public:
-    Actor() : currentSlapped_(false){}
+    Actor() 
+        : currentSlapped_{ false }
+        , nextSlapped_{ false }
+    {}
 
     virtual ~Actor() {}
     virtual void update() = 0;
@@ -49,10 +52,10 @@ public:
             facing_->slap();
     }
 private:
-    Actor* facing_;
+    Actor* facing_ = nullptr;
 };
 
-int main()
+int old_main()
 {
     Comedian* Pedro = new Comedian;
     Comedian* Juan = new Comedian;
@@ -73,6 +76,6 @@ int main()
 
     std::cout << Juan->wasSlapped() << std::endl;
     std::cout << Pedro->wasSlapped() << std::endl;
-
+    return 0;
 }
 

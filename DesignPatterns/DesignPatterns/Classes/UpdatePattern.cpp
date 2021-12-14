@@ -109,7 +109,7 @@ private:
 };
 
 
-int main()
+int old_main_()
 {
     std::cout << "Hello World!\n";
     World* myWorld = new World;
@@ -122,6 +122,8 @@ int main()
     myWorld->addEntity(statue);
 
     myWorld->gameLoop();
+
+    return 0;
 }
 
 void World::gameLoop()
