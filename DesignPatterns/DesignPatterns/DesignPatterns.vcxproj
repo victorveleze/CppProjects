@@ -139,19 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Classes\DoubleBufferPattern.cpp" />
-    <ClCompile Include="Classes\SmartState.cpp" />
-    <ClCompile Include="Classes\State.cpp" />
-    <ClCompile Include="Classes\UpdatePattern.cpp" />
-    <ClCompile Include="Classes\Decorator.cpp" />
+    <ClCompile Include="Classes\Behavioral\SmartState.cpp" />
+    <ClCompile Include="Classes\Behavioral\State.cpp" />
+    <ClCompile Include="Classes\Others\DoubleBufferPattern.cpp" />
+    <ClCompile Include="Classes\Others\UpdatePattern.cpp" />
+    <ClCompile Include="Classes\Structural\Character.cpp" />
+    <ClCompile Include="Classes\Structural\Decorator.cpp" />
+    <ClCompile Include="Classes\Behavioral\Command.cpp" />
     <ClCompile Include="DesignPatterns.cpp" />
-    <ClCompile Include="Classes\Character.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Classes\SmartState.h" />
-    <ClInclude Include="Classes\State.h" />
-    <ClInclude Include="Classes\Character.h" />
-    <ClInclude Include="Classes\Decorator.h" />
+    <ClInclude Include="Classes\Behavioral\SmartState.h" />
+    <ClInclude Include="Classes\Behavioral\State.h" />
+    <ClInclude Include="Classes\Structural\Character.h" />
+    <ClInclude Include="Classes\Structural\Decorator.h" />
+    <ClInclude Include="Classes\Behavioral\Command.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

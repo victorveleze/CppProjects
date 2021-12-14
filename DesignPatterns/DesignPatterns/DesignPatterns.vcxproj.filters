@@ -18,36 +18,42 @@
     <ClCompile Include="DesignPatterns.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\DoubleBufferPattern.cpp">
+    <ClCompile Include="Classes\Behavioral\SmartState.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\SmartState.cpp">
+    <ClCompile Include="Classes\Behavioral\State.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\State.cpp">
+    <ClCompile Include="Classes\Structural\Character.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\UpdatePattern.cpp">
+    <ClCompile Include="Classes\Structural\Decorator.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Character.cpp">
+    <ClCompile Include="Classes\Others\DoubleBufferPattern.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Decorator.cpp">
+    <ClCompile Include="Classes\Others\UpdatePattern.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Behavioral\Command.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Classes\SmartState.h">
+    <ClInclude Include="Classes\Behavioral\SmartState.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\State.h">
+    <ClInclude Include="Classes\Behavioral\State.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Character.h">
+    <ClInclude Include="Classes\Structural\Character.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Decorator.h">
+    <ClInclude Include="Classes\Structural\Decorator.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Behavioral\Command.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
