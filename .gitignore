@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+DesignPatterns/vs/
+DesignPatterns/.vs/
+DesignPatterns/Debug
+DesignPatterns/DesignPatterns/Debug/
