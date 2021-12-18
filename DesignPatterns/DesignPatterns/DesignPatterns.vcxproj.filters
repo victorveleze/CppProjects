@@ -39,6 +39,9 @@
     <ClCompile Include="Classes\Behavioral\Command.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Creational\Builder.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Behavioral\SmartState.h">
@@ -54,6 +57,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Behavioral\Command.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Creational\Builder.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

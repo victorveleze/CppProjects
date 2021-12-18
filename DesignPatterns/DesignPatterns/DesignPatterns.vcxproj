@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Classes\Creational\Builder.cpp" />
     <ClCompile Include="Classes\Behavioral\SmartState.cpp" />
     <ClCompile Include="Classes\Behavioral\State.cpp" />
     <ClCompile Include="Classes\Others\DoubleBufferPattern.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="DesignPatterns.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Classes\Creational\Builder.h" />
     <ClInclude Include="Classes\Behavioral\SmartState.h" />
     <ClInclude Include="Classes\Behavioral\State.h" />
     <ClInclude Include="Classes\Structural\Character.h" />
