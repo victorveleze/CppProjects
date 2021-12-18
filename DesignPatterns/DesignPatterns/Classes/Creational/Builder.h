@@ -71,3 +71,18 @@ public:
 private:
     std::shared_ptr<CharacterBuilder> builder_;
 };
+
+
+/*  Builder example:
+    const auto builder = std::make_shared<ZombieBuilder>();
+    BuildDirector director(builder);
+    director.buildZombie();
+    const std::shared_ptr<Character> zombie = director.getCharacter();
+
+    director.setBuilder(std::make_shared<MummyBuilder>());
+    director.buildMummy();
+    const std::shared_ptr<Character> mummy = director.getCharacter();
+
+    zombie->printParts();
+    mummy->printParts();
+ */
