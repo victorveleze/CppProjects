@@ -148,6 +148,7 @@
     <ClCompile Include="Classes\Structural\Decorator.cpp" />
     <ClCompile Include="Classes\Behavioral\Command.cpp" />
     <ClCompile Include="DesignPatterns.cpp" />
+    <ClCompile Include="Classes\Behavioral\Observer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Creational\Builder.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Classes\Structural\Character.h" />
     <ClInclude Include="Classes\Structural\Decorator.h" />
     <ClInclude Include="Classes\Behavioral\Command.h" />
+    <ClInclude Include="Classes\Behavioral\Observer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
