@@ -31,7 +31,8 @@
 *.out
 *.app
 
-DesignPatterns/vs/
-DesignPatterns/.vs/
-DesignPatterns/Debug
+vs/
+.vs/
+Debug/
+DesignPatterns/Debug/
 DesignPatterns/DesignPatterns/Debug/
